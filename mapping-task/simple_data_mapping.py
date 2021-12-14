@@ -95,6 +95,7 @@ def process_article(new=False):
             five_minute_less = timedelta(minutes=INTERVAL)
             parsing_datetime = datetime.now() - five_minute_less
 
+            # converting to date objects
             details["publication_date"] = datetime.strptime(details["pub_date"].replace(";", ":"), '%Y-%m-%d-%H:%M:%S')
             if details.get("mod_date"):
                 details["modification_date"] = datetime.strptime(details["mod_date"].replace(";", ":"),
@@ -121,6 +122,7 @@ def process_article(new=False):
                                 if m["id"] == _id:
                                     sections.remove(_sections)
 
+                                    # converting to date objects
                                     if m.get("pub_date"):
                                         m["publication_date"] = datetime.strptime(m["pub_date"].replace(";", ":"),
                                                                                   '%Y-%m-%d-%H:%M:%S')
@@ -141,7 +143,7 @@ def process_article(new=False):
 log.info("Functions and variables declared!")
 
 if __name__ == '__main__':
-    log.info("Started processing the articles!")
+    log.info("Started processing the articles for every 5 or given minutes!")
     schedule.every(INTERVAL).minutes.do(process_article, NEW_ARTICLE)
 
     while True:
