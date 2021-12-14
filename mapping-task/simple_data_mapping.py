@@ -100,13 +100,10 @@ def process_article(new=False):
             if details.get("mod_date"):
                 details["modification_date"] = datetime.strptime(details["mod_date"].replace(";", ":"),
                                                                  '%Y-%m-%d-%H:%M:%S')
-                if details["modification_date"] > parsing_datetime:
+                if details["modification_date"] >= parsing_datetime:
                     mod_flag = True
 
-            print(details["publication_date"], parsing_datetime)
-            print(details["publication_date"] < parsing_datetime)
-
-            if (details["publication_date"] > parsing_datetime and new) or (mod_flag and new) or not new:
+            if (details["publication_date"] >= parsing_datetime and new) or (mod_flag and new) or not new:
                 sections = details["sections"]
                 for _sections in sections:
                     if _sections.get("text"):
@@ -140,7 +137,7 @@ def process_article(new=False):
                     raise Exception(er)
 
 
-log.info("Functions and variables declared!")
+log.info("Functions and variables declared and initiated!")
 
 if __name__ == '__main__':
     log.info("Started processing the articles for every 5 or given minutes!")
