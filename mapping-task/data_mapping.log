@@ -79,3 +79,348 @@
 2021-12-14 12:12:02,347 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
 2021-12-14 12:12:02,910 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
 2021-12-14 12:12:02,916 Connection Success to the API.
+2021-12-14 12:12:35,536 All modules imported!
+2021-12-14 12:12:35,537 Functions and variables declared and initiated!
+2021-12-14 12:12:35,537 Started processing the articles for every 5 or given minutes!
+2021-12-14 12:13:35,574 Running job Job(interval=1, unit=minutes, do=process_article, args=(True,), kwargs={})
+2021-12-14 12:13:35,574 Getting articles list.
+2021-12-14 12:13:35,583 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:13:36,150 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:13:36,157 Getting articles details
+2021-12-14 12:13:36,162 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:13:36,719 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:13:36,725 Getting media details if it is there
+2021-12-14 12:13:36,731 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:13:37,281 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:13:37,287 Connection Success to the API.
+2021-12-14 12:13:37,295 Getting articles details
+2021-12-14 12:13:37,299 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:13:38,209 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:13:38,215 Getting media details if it is there
+2021-12-14 12:13:38,221 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:13:38,762 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:13:38,767 Getting articles details
+2021-12-14 12:13:38,772 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:13:39,688 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:13:39,693 Getting media details if it is there
+2021-12-14 12:13:39,694 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:13:40,250 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:13:40,254 Connection Success to the API.
+2021-12-14 12:14:40,283 Running job Job(interval=1, unit=minutes, do=process_article, args=(True,), kwargs={})
+2021-12-14 12:14:40,284 Getting articles list.
+2021-12-14 12:14:40,291 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:14:40,819 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:14:40,821 Getting articles details
+2021-12-14 12:14:40,822 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:14:41,381 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:14:41,388 Getting media details if it is there
+2021-12-14 12:14:41,394 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:14:41,946 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:14:41,952 Connection Success to the API.
+2021-12-14 12:14:41,953 Getting articles details
+2021-12-14 12:14:41,960 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:14:42,493 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:14:42,500 Getting media details if it is there
+2021-12-14 12:14:42,505 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:14:43,050 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:14:43,056 Getting articles details
+2021-12-14 12:14:43,062 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:14:43,623 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:14:43,628 Getting media details if it is there
+2021-12-14 12:14:43,630 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:14:44,184 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:14:44,190 Connection Success to the API.
+2021-12-14 12:15:44,220 Running job Job(interval=1, unit=minutes, do=process_article, args=(True,), kwargs={})
+2021-12-14 12:15:44,221 Getting articles list.
+2021-12-14 12:15:44,225 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:15:44,776 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:15:44,782 Getting articles details
+2021-12-14 12:15:44,788 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:15:45,329 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:15:45,336 Getting media details if it is there
+2021-12-14 12:15:45,342 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:15:45,897 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:15:45,899 Connection Success to the API.
+2021-12-14 12:15:45,899 Getting articles details
+2021-12-14 12:15:45,901 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:15:46,822 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:15:46,824 Getting media details if it is there
+2021-12-14 12:15:46,825 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:15:47,345 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:15:47,352 Getting articles details
+2021-12-14 12:15:47,359 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:15:47,923 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:15:47,929 Getting media details if it is there
+2021-12-14 12:15:47,935 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:15:48,484 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:15:48,485 Connection Success to the API.
+2021-12-14 12:16:48,519 Running job Job(interval=1, unit=minutes, do=process_article, args=(True,), kwargs={})
+2021-12-14 12:16:48,520 Getting articles list.
+2021-12-14 12:16:48,523 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:16:49,053 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:16:49,060 Getting articles details
+2021-12-14 12:16:49,066 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:16:49,612 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:16:49,618 Getting media details if it is there
+2021-12-14 12:16:49,624 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:16:50,157 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:16:50,162 Connection Success to the API.
+2021-12-14 12:16:50,162 Getting articles details
+2021-12-14 12:16:50,164 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:16:50,719 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:16:50,725 Getting media details if it is there
+2021-12-14 12:16:50,731 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:16:51,265 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:16:51,272 Getting articles details
+2021-12-14 12:16:51,278 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:16:51,838 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:16:51,839 Getting media details if it is there
+2021-12-14 12:16:51,840 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:16:52,395 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:16:52,399 Connection Success to the API.
+2021-12-14 12:17:52,434 Running job Job(interval=1, unit=minutes, do=process_article, args=(True,), kwargs={})
+2021-12-14 12:17:52,434 Getting articles list.
+2021-12-14 12:17:52,437 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:17:52,953 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:17:52,960 Getting articles details
+2021-12-14 12:17:52,966 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:17:53,491 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:17:53,494 Getting media details if it is there
+2021-12-14 12:17:53,497 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:17:54,057 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:17:54,063 Connection Success to the API.
+2021-12-14 12:17:54,064 Getting articles details
+2021-12-14 12:17:54,070 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:17:54,612 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:17:54,617 Getting media details if it is there
+2021-12-14 12:17:54,619 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:17:55,176 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:17:55,182 Getting articles details
+2021-12-14 12:17:55,188 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:17:56,117 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:17:56,121 Getting media details if it is there
+2021-12-14 12:17:56,127 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:17:57,050 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:17:57,056 Connection Success to the API.
+2021-12-14 12:18:11,355 All modules imported!
+2021-12-14 12:18:11,355 Functions and variables declared and initiated!
+2021-12-14 12:18:11,355 Started processing the articles for every 5 or given minutes!
+2021-12-14 12:19:00,874 All modules imported!
+2021-12-14 12:19:00,874 Functions and variables declared and initiated!
+2021-12-14 12:19:00,874 Started processing the articles for every 5 or given minutes!
+2021-12-14 12:20:00,905 Running job Job(interval=1, unit=minutes, do=process_article, args=(False,), kwargs={})
+2021-12-14 12:20:00,906 Getting articles list.
+2021-12-14 12:20:00,921 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:20:01,475 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:20:01,482 Getting articles details
+2021-12-14 12:20:01,488 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:20:02,028 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:20:02,034 Getting media details if it is there
+2021-12-14 12:20:02,040 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:20:02,598 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:20:02,603 Connection Success to the API.
+2021-12-14 12:20:02,613 Removing html elements from texts
+2021-12-14 12:20:02,613 Removing html elements from texts
+2021-12-14 12:20:02,613 Removing html elements from texts
+2021-12-14 12:20:02,614 Removing html elements from texts
+2021-12-14 12:20:02,614 Removing html elements from texts
+2021-12-14 12:20:02,614 Removing html elements from texts
+2021-12-14 12:20:02,626 Getting articles details
+2021-12-14 12:20:02,629 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:20:03,156 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:20:03,161 Getting media details if it is there
+2021-12-14 12:20:03,163 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:20:03,710 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:20:03,715 Removing html elements from texts
+2021-12-14 12:20:03,716 Getting articles details
+2021-12-14 12:20:03,718 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:20:04,262 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:20:04,266 Getting media details if it is there
+2021-12-14 12:20:04,268 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:20:04,810 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:20:04,815 Connection Success to the API.
+2021-12-14 12:20:04,816 Removing html elements from texts
+2021-12-14 12:20:04,816 Removing html elements from texts
+2021-12-14 12:20:04,817 Removing html elements from texts
+2021-12-14 12:20:04,817 Removing html elements from texts
+2021-12-14 12:20:04,817 Removing html elements from texts
+2021-12-14 12:21:04,854 Running job Job(interval=1, unit=minutes, do=process_article, args=(False,), kwargs={})
+2021-12-14 12:21:04,854 Getting articles list.
+2021-12-14 12:21:04,857 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:21:05,806 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:21:05,811 Getting articles details
+2021-12-14 12:21:05,813 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:21:06,750 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:21:06,755 Getting media details if it is there
+2021-12-14 12:21:06,757 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:21:07,676 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:21:07,682 Connection Success to the API.
+2021-12-14 12:21:07,683 Removing html elements from texts
+2021-12-14 12:21:07,684 Removing html elements from texts
+2021-12-14 12:21:07,684 Removing html elements from texts
+2021-12-14 12:21:07,684 Removing html elements from texts
+2021-12-14 12:21:07,684 Removing html elements from texts
+2021-12-14 12:21:07,685 Removing html elements from texts
+2021-12-14 12:21:07,687 Getting articles details
+2021-12-14 12:21:07,692 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:21:08,623 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:21:08,630 Getting media details if it is there
+2021-12-14 12:21:08,637 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:21:09,212 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:21:09,217 Removing html elements from texts
+2021-12-14 12:21:09,218 Getting articles details
+2021-12-14 12:21:09,220 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:21:10,177 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:21:10,181 Getting media details if it is there
+2021-12-14 12:21:10,183 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:21:10,726 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:21:10,733 Connection Success to the API.
+2021-12-14 12:21:10,734 Removing html elements from texts
+2021-12-14 12:21:10,734 Removing html elements from texts
+2021-12-14 12:21:10,735 Removing html elements from texts
+2021-12-14 12:21:10,735 Removing html elements from texts
+2021-12-14 12:21:10,735 Removing html elements from texts
+2021-12-14 12:22:10,773 Running job Job(interval=1, unit=minutes, do=process_article, args=(False,), kwargs={})
+2021-12-14 12:22:10,773 Getting articles list.
+2021-12-14 12:22:10,778 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:22:11,335 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:22:11,342 Getting articles details
+2021-12-14 12:22:11,348 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:22:11,878 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:22:11,882 Getting media details if it is there
+2021-12-14 12:22:11,884 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:22:12,440 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:22:12,446 Connection Success to the API.
+2021-12-14 12:22:12,447 Removing html elements from texts
+2021-12-14 12:22:12,447 Removing html elements from texts
+2021-12-14 12:22:12,447 Removing html elements from texts
+2021-12-14 12:22:12,448 Removing html elements from texts
+2021-12-14 12:22:12,448 Removing html elements from texts
+2021-12-14 12:22:12,448 Removing html elements from texts
+2021-12-14 12:22:12,451 Getting articles details
+2021-12-14 12:22:12,456 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:22:13,002 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:22:13,008 Getting media details if it is there
+2021-12-14 12:22:13,014 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:22:13,566 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:22:13,569 Removing html elements from texts
+2021-12-14 12:22:13,570 Getting articles details
+2021-12-14 12:22:13,571 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:22:14,115 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:22:14,117 Getting media details if it is there
+2021-12-14 12:22:14,118 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:22:15,029 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:22:15,034 Connection Success to the API.
+2021-12-14 12:22:15,034 Removing html elements from texts
+2021-12-14 12:22:15,034 Removing html elements from texts
+2021-12-14 12:22:15,034 Removing html elements from texts
+2021-12-14 12:22:15,034 Removing html elements from texts
+2021-12-14 12:22:15,034 Removing html elements from texts
+2021-12-14 12:23:15,068 Running job Job(interval=1, unit=minutes, do=process_article, args=(False,), kwargs={})
+2021-12-14 12:23:15,068 Getting articles list.
+2021-12-14 12:23:15,072 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:23:15,616 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:23:15,623 Getting articles details
+2021-12-14 12:23:15,627 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:23:16,172 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:23:16,178 Getting media details if it is there
+2021-12-14 12:23:16,184 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:23:16,744 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:23:16,750 Connection Success to the API.
+2021-12-14 12:23:16,751 Removing html elements from texts
+2021-12-14 12:23:16,751 Removing html elements from texts
+2021-12-14 12:23:16,751 Removing html elements from texts
+2021-12-14 12:23:16,752 Removing html elements from texts
+2021-12-14 12:23:16,753 Removing html elements from texts
+2021-12-14 12:23:16,753 Removing html elements from texts
+2021-12-14 12:23:16,754 Getting articles details
+2021-12-14 12:23:16,760 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:23:17,676 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:23:17,683 Getting media details if it is there
+2021-12-14 12:23:17,689 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:23:18,234 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:23:18,239 Removing html elements from texts
+2021-12-14 12:23:18,240 Getting articles details
+2021-12-14 12:23:18,242 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:23:18,772 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:23:18,778 Getting media details if it is there
+2021-12-14 12:23:18,784 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:23:19,350 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:23:19,356 Connection Success to the API.
+2021-12-14 12:23:19,357 Removing html elements from texts
+2021-12-14 12:23:19,357 Removing html elements from texts
+2021-12-14 12:23:19,357 Removing html elements from texts
+2021-12-14 12:23:19,358 Removing html elements from texts
+2021-12-14 12:23:19,358 Removing html elements from texts
+2021-12-14 12:24:19,385 Running job Job(interval=1, unit=minutes, do=process_article, args=(False,), kwargs={})
+2021-12-14 12:24:19,385 Getting articles list.
+2021-12-14 12:24:19,386 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:24:19,900 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:24:19,901 Getting articles details
+2021-12-14 12:24:19,903 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:24:20,450 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:24:20,452 Getting media details if it is there
+2021-12-14 12:24:20,454 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:24:20,972 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:24:20,975 Connection Success to the API.
+2021-12-14 12:24:20,975 Removing html elements from texts
+2021-12-14 12:24:20,975 Removing html elements from texts
+2021-12-14 12:24:20,975 Removing html elements from texts
+2021-12-14 12:24:20,975 Removing html elements from texts
+2021-12-14 12:24:20,975 Removing html elements from texts
+2021-12-14 12:24:20,975 Removing html elements from texts
+2021-12-14 12:24:20,976 Getting articles details
+2021-12-14 12:24:20,979 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:24:21,900 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:24:21,902 Getting media details if it is there
+2021-12-14 12:24:21,903 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:24:22,805 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:24:22,807 Removing html elements from texts
+2021-12-14 12:24:22,807 Getting articles details
+2021-12-14 12:24:22,809 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:24:23,728 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:24:23,730 Getting media details if it is there
+2021-12-14 12:24:23,731 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:24:24,629 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:24:24,630 Connection Success to the API.
+2021-12-14 12:24:24,631 Removing html elements from texts
+2021-12-14 12:24:24,631 Removing html elements from texts
+2021-12-14 12:24:24,631 Removing html elements from texts
+2021-12-14 12:24:24,631 Removing html elements from texts
+2021-12-14 12:24:24,631 Removing html elements from texts
+2021-12-14 12:25:24,656 Running job Job(interval=1, unit=minutes, do=process_article, args=(False,), kwargs={})
+2021-12-14 12:25:24,656 Getting articles list.
+2021-12-14 12:25:24,657 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:25:25,190 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/list.json HTTP/1.1" 200 266
+2021-12-14 12:25:25,192 Getting articles details
+2021-12-14 12:25:25,193 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:25:25,710 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793136.json HTTP/1.1" 200 2058
+2021-12-14 12:25:25,712 Getting media details if it is there
+2021-12-14 12:25:25,713 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:25:27,459 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793136.json HTTP/1.1" 404 225
+2021-12-14 12:25:27,460 Connection Success to the API.
+2021-12-14 12:25:27,460 Removing html elements from texts
+2021-12-14 12:25:27,460 Removing html elements from texts
+2021-12-14 12:25:27,460 Removing html elements from texts
+2021-12-14 12:25:27,461 Removing html elements from texts
+2021-12-14 12:25:27,461 Removing html elements from texts
+2021-12-14 12:25:27,461 Removing html elements from texts
+2021-12-14 12:25:27,461 Getting articles details
+2021-12-14 12:25:27,463 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:25:27,979 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793118.json HTTP/1.1" 200 1097
+2021-12-14 12:25:27,981 Getting media details if it is there
+2021-12-14 12:25:27,982 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:25:28,499 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793118.json HTTP/1.1" 200 471
+2021-12-14 12:25:28,500 Removing html elements from texts
+2021-12-14 12:25:28,501 Getting articles details
+2021-12-14 12:25:28,502 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:25:29,029 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/articles/7793073.json HTTP/1.1" 200 1385
+2021-12-14 12:25:29,031 Getting media details if it is there
+2021-12-14 12:25:29,032 Starting new HTTPS connection (1): mapping-test.fra1.digitaloceanspaces.com:443
+2021-12-14 12:25:29,555 https://mapping-test.fra1.digitaloceanspaces.com:443 "GET /data/media/7793073.json HTTP/1.1" 404 225
+2021-12-14 12:25:29,557 Connection Success to the API.
+2021-12-14 12:25:29,557 Removing html elements from texts
+2021-12-14 12:25:29,557 Removing html elements from texts
+2021-12-14 12:25:29,557 Removing html elements from texts
+2021-12-14 12:25:29,557 Removing html elements from texts
+2021-12-14 12:25:29,557 Removing html elements from texts

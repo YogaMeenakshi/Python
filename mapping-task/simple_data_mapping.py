@@ -32,7 +32,7 @@ except Exception as e:
 
 # variable declaration
 INTERVAL = int(argv[1]) if argv[1] else 5
-NEW_ARTICLE = False if argv[2].lower() == "False" else True
+NEW_ARTICLE = False if argv[2].lower() == "false" else True
 REGEX = compile('<.*?>')
 
 url_list = {
