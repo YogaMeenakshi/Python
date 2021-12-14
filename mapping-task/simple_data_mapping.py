@@ -104,7 +104,7 @@ def process_article(new=False):
                     mod_flag = True
 
             print(details["publication_date"], parsing_datetime)
-            print(details["publication_date"] > parsing_datetime)
+            print(details["publication_date"] < parsing_datetime)
 
             if (details["publication_date"] > parsing_datetime and new) or (mod_flag and new) or not new:
                 sections = details["sections"]
