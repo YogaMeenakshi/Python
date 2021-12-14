@@ -8,3 +8,5 @@ Param_2 = This is to tell to process old articles are not. value are **False or 
 **Example**: In our case
 simple_data_mapping.py "5" "False"
 
+
+If we True in param_2, it will only process which is modified or published less than given time period in param_1.
