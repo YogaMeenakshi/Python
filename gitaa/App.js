@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { ListItem, Icon } from 'react-native-elements'
 import Swiper from 'react-native-swiper'
 
+
 const styles = StyleSheet.create({
   wrapper:{},
   text: {
